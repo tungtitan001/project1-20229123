@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <script src="ckeditor/ckeditor.js"></script>
+    <script src="ckfinder/ckfinder.js"></script>
+    <title>Admin-Scitech</title>
+</head>
+<body>
+  
+<section class="admin-content row space-between">
+    <div class="admin-content-left">
+        <div class="header-top-left">
+            <a href="index.html">
+                <p> <span>SCI</span>TECH</p>
+            </a>
+        </div>
+        <ul>
+            <li><a href="#"> <img style="width:20px" src="icon/hi.png" alt="">Chào: Admin<span
+                        style="color:blueviolet; font-size:22px">
+                    </span><span style="color: red; font-size:20px">&#10084;</span></a>
+            <li><a href="#"><img style="width:20px" src="icon/options.png" alt="">Danh Mục</a>
+                <ul>
+                    <li><a href="#">Danh sách</a></li>
+                    <li><a href="#">Thêm</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img style="width:20px" src="icon/menu.png" alt="">Loại Sản Phẩm</a>
+                <ul>
+                    <li><a href="#">Danh sách</a></li>
+                    <li><a href="#">Thêm</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img style="width:20px" src="icon/colour.png" alt="">Màu sắc</a>
+                <ul>
+                    <li><a href="#">Danh sách</a></li>
+                    <li><a href="#">Thêm</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img style="width:20px" src="icon/article.png" alt="">Sản phẩm</a>
+                <ul>
+                    <li><a href="product_list.html">Danh sách</a></li>
+                    <li><a href="product_add.html">Thêm</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img style="width:20px" src="icon/picture.png" alt="">Ảnh Sản phẩm</a>
+                <ul>
+                    <li><a href="">Danh sách</a></li>
+                    <li><a href="">Thêm</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><img style="width:20px" src="icon/size.png" alt="">Kích thước</a>
+                <ul>
+                    <li><a href="">Danh sách</a></li>
+                    <li><a href="">Thêm</a></li>
+                </ul>
+            </li>
+            <li><a href=""> <img style="width:20px" src="icon/logout.png" alt="">Đăng Xuất</a>
+            </li>
+        </ul>
+    </div>      
+        
+    <div class="admin-content-right">
+        <div class="table-content">
+            <table>
+                <tr>
+                    <th>STT</th>
+                    <th>ID</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Mã</th>
+                    <th>Danh mục</th>
+                    <th>Loại sản phẩm</th>
+                    <th>Màu</th>   
+                    <th>Giá</th> 
+                    <th>Chi tiết</th> 
+                    <th>Công dụng</th>   
+                    <th>Ảnh đại diện</th>   
+                    <th>Ảnh sản phẩm</th>     
+                    <th>Kích thước</th>                
+                    <th>Tùy chỉnh</th>
+                </tr>
+                <tr>
+                    <td> 1</td>
+                    <td> 40</td>
+                    <td> Nhôm định hình 20X20: SCI6-2020-05</td>
+                    <td> MSP: SCI6-2020-05</td>
+                    <td> Nhôm định hình</td>
+                    <td> Nhôm định hình 2020</td>
+                    <td> Bạc</td>
+                    <td> 100000</td>
+                    <td> Demo chi tiết</td>
+                    <td> Demo công dụng</td>                  
+                    <td> <img style="width: 100px; height: 50px;object-fit: contain;" src="uploads/sp1.jpg" alt=""></td>                
+                    <td><a href="anhsanphamlist.php?sanpham_id=40">Xem</a></td>
+                    <td><a href="sizesanphamlist.php?sanpham_id=40">Xem</a></td>
+                    <td><a href="productedit.php?sanpham_id=40">Sửa</a>|
+                    <a href="productdelete.php?sanpham_id=40">Xóa</a></td>
+                </tr>
+                <tr>
+                    <td> 2</td>
+                    <td> 39</td>
+                    <td> Nhôm định hình 20X40: SCI6-2040-05</td>
+                    <td> MSP: SCI6-2040-05</td>
+                    <td> Nhôm định hình</td>
+                    <td> Nhôm định hình 2020</td>
+                    <td> Đen</td>
+                    <td> 120000</td>
+                    <td> Demo chi tiết</td>
+                    <td> Demo công dụng</td>               
+                    <td> <img style="width: 100px; height: 50px;object-fit: contain;" src="uploads/sp2.jpg" alt=""></td>                
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Sửa</a>|
+                    <a href="">Xóa</a></td>
+                </tr>
+                                    <tr>
+                    <td> 3</td>
+                    <td> 38</td>
+                    <td> Nhôm định hình 20X20: SCI6-2020-01</td>
+                    <td> MSP: SCI6-2020-01</td>
+                    <td> Nhôm định hình</td>
+                    <td> Nhôm định hình 2020</td>
+                    <td> Đen</td>
+                    <td> 120000</td>
+                    <td> Demo chi tiết</td>
+                    <td> Demo công dụng</td>               
+                    <td> <img style="width: 100px; height: 50px;object-fit: contain;" src="uploads/sp3.jpg" alt=""></td>                
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Sửa</a>|
+                    <a href="">Xóa</a></td>
+                </tr>
+                <tr>
+                    <td> 4</td>
+                    <td> 37</td>
+                    <td> Nhôm định hình 20X40: SCI5-2040-02</td>
+                    <td> MSP: SCI5-2040-02</td>
+                    <td> Nhôm định hình</td>
+                    <td> Nhôm định hình 2020</td>
+                    <td> Bạc</td>
+                    <td> 120000</td>
+                    <td> Demo chi tiết</td>
+                    <td> Demo công dụng</td>             
+                    <td> <img style="width: 100px; height: 50px;object-fit: contain;" src="uploads/sp4.jpg" alt=""></td>                
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Sửa</a>|
+                    <a href="">Xóa</a></td>
+                </tr>
+                <tr>
+                    <td> 5</td>
+                    <td> 35</td>
+                    <td> Nhôm định hình 20X80: SCI8-2080-01</td>
+                    <td> MSP: SCI8-2080-01</td>
+                    <td> Nhôm định hình</td>
+                    <td> Nhôm định hình 2020</td>
+                    <td> Đen</td>
+                    <td> 120000</td>
+                    <td> Demo chi tiết</td>
+                    <td> Demo công dụng</td>             
+                    <td> <img style="width: 100px; height: 50px; object-fit: contain;" src="uploads/sp5.jpg" alt=""></td>                
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Xem</a></td>
+                    <td><a href="">Sửa</a>|
+                    <a href="">Xóa</a></td>
+                </tr>
+            </table>
+        </div>        
+    </div>    
+
+    </section>
+    <script src="js/script.js"></script>
+
+</body>
+</html>  

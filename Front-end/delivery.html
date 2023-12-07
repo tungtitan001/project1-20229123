@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <title>SCITECH</title>
+</head>
+
+<body>
+    <!------------------------------------HEADER----------------------------------->
+    <secsion class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <a href="index.html"><img src="image/logo.png" alt=""></a>
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <!-- lenh go nhanh li*4 -->
+                        <li>Nhôm định hình
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory.html">Phụ kiện nhôm định hình</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.html">Nhôm định hình 2020</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.html">Nhôm định hình 3030</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.html">Nhôm định hình 4040</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Dụng cụ cơ khí
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="cartegory.html">Băng dính, keo dán</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.html">Mũi khoan, mũi phay</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.html">Tua vít</a>
+                                </li>
+                                <li>
+                                    <a href="cartegory.html">Khóa cờ lê</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Thiết bị điện tử</li>
+                        <li>Máy in 3D</li>
+                        <li>Máy khắc Lazer</li>
+                        <li>Thông tin</li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-user-secret"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-shopping-cart"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </secsion>
+    <!------------------------------------DELIVERY----------------------------------->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top">
+                    <div class="delivery-top-delivery delivery-top-item">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="delivery-top-adress delivery-top-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="delivery-top-payment delivery-top-item">
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="delivery-content row">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ giao hàng</p>
+                    <div class="delivery-content-left-dangnhap row">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>Đăng nhập (Nếu bạn đã có tài khoản của IVY)</p>
+                    </div>
+                    <div class="delivery-content-left-khachle row">
+                        <input checked="checked" name="loaikhach" type="radio" value="khachle">
+                        <p><span style="font-weight: bold;">Khách lẻ</span> (Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-dangky row">
+                        <input name="loaikhach" value="dangky" type="radio">
+                        <p><span style="font-weight: bold;">Đăng ký</span> (Tạo mới tài khoản với thông tin bên dưới)
+                        </p>
+                    </div>
+                    <div class="delivery-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/Tp <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="delivery-content-left-input-bottom">
+                        <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-button row">
+                        <a href=""><span> &#8810;</span>
+                            <p>Quay lại giỏ hàng</p>
+                        </a>
+                        <button>
+                            <a href="payment.html">
+                                <p style="font-weight: bold;">THANH TOÁN VÀ GIAO HÀNG</p>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>Nhôm định hình 20X20: SCI6-2020-01</td>
+                            <td></td>
+                            <td>1</td>
+                            <td>
+                                <p>100.000<sup>đ</sup></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nhôm định hình 20X40: SCI5-2040-01</td>
+                            <td></td>
+                            <td>2</td>
+                            <td>
+                                <p>300.000<sup>đ</sup></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng</td>
+                            <td style="font-weight: bold;">
+                                <p>400.000<sup>đ</sup></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold;">
+                                <p>40.000<sup>đ</sup></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                            <td style="font-weight: bold;">
+                                <p>440.000<sup>đ</sup></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------FOOTER----------------------------------->
+    <section class="footer">
+        <div class="footer-container">
+            <p>Tải ứng dụng đặt hàng SCITECH</p>
+            <div class="app-google">
+                <a href=""><img src="image/appstore.jpg" alt=""></a>
+                <a href=""> <img src="image/googleplay.jpg" alt=""></a>
+            </div>
+            <p>Nhận bản tin SCITECH</p>
+            <div class="input-email">
+                <input type="text" placeholder="Nhập email của bạn">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="footer-items">
+                <li><a href=""><img src="image/dathongbao.png" alt=""></a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Tuyển dụng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <div class="footer-text">
+                Công ty TNHH SciTech Việt Nam với số đăng ký kinh doanh: 0110479836 <br>
+                Địa chỉ đăng ký: TT8-06 Khu đô thị mới Văn Phú, P. Phú La, Q. Hà Đông, TP. Hà Nội, Việt Nam <br>
+                Đặt hàng online : 0888 672 795
+            </div>
+            <div class="footer-bottom">
+                © 2023 SciTech. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
