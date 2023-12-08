@@ -8,7 +8,7 @@ $admin = new admin();
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     $username = $_POST['username'];
-    $userpassword = md5($_POST['password']);
+    $userpassword = $_POST['password'];
     // var_dump($_POST);
 	$check_admin = $admin ->check_admin($username,$userpassword);
 }
